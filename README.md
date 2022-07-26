@@ -31,4 +31,4 @@
 <br>
 
 
-# Thank you for visiting us and Hope to "sea" You again
+# Thank you for Eating From us 
