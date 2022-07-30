@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 </head>
 <body>
-    <li style="font-size: 20px"><a href="index.html"> <strong>Home Page</strong> </a></li>
-    <li style="font-size: 20px"><a href="about.html"> <strong>About</strong> </a></li>
-    <h1>You can contact us using</h1>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-items"><img href="#" src="./img/logo_transparent.png" alt="logo" width="70px" height="70px"></li>
+                <li class="nav-items"><a href="/index.html"><strong>Home</strong></a></li>
+                <li class="nav-items"><a href="/about.html"> <strong>About</strong> </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Contact Us Here</h3>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
 
-    <p>Phone Number:   079*******</p>
-    <p>Email:          Email@gmail.com</p>
+
+    <footer>
+        <div class="main-footer">
+            <ul class="footer-list">
+                <li>Amman/ Jordan</li>
+                <li>07********</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
 
