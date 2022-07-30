@@ -5,53 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meatster</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+    
 </head>
 <body>
     <header>
-    <h1>Meatster</h1>
-
-    <ul style="list-style: none;">
-        <li style="font-size: 20px"><a href="about.html"> <strong>About</strong> </a></li>
-        <li style="font-size: 20px"><a href="support.html"> <strong>Support</strong> </a></li>
-    </ul>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-items"><img href="#" src="./img/logo_transparent.png" alt="logo" width="70px" height="70px"></li>
+                <li class="nav-items"><a href="/about.html"><strong>About</strong></a></li>
+                <li class="nav-items"><a href="/support.html"> <strong>Support</strong> </a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <ol>
-            <li>
-                <p>Smoked meat</p>
-                <img src="https://www.africanbites.com/wp-content/uploads/2021/04/IMG_2507.jpg" alt="" width="250px", height="350px">
-                <p>37$</p>
-                <hr>
-            </li>
-            <li>
-                <p>Smoked salmon</p>
-                <img src="https://leitesculinaria.com/wp-content/uploads/2021/06/smoked-salmon-bourbon-marinade.jpg" alt="" width="250px", height="350px">
-                <p>33$</p>
-                <hr>
-            </li>
-            <li>
-                <p>Smoked burger</p>
-                <img src="https://www.grillseeker.com/wp-content/uploads/2021/05/Smoked-Hamburgers-Burger-Feature1.jpg" width="250px", height="350px">
-                <p>30$</p>
-                <hr>
-            </li>
-            <li>
-                <p>Smoked hot dogs</p>
-                <img src="https://www.chiselandfork.com/wp-content/uploads/2022/06/smoked-hot-dogs-1.jpg" alt="" width="250px", height="350px">
-                <p>24$</p>
-                <hr>
-            </li>
-        </ol>
+        
+       
+        <div class="wrapper">
+            <h1>Meatster</h1>
+            <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://www.africanbites.com/wp-content/uploads/2021/04/IMG_2507.jpg)">
+                            <div class="inner">
+                                <p>Smoked meat</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                            <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://leitesculinaria.com/wp-content/uploads/2021/06/smoked-salmon-bourbon-marinade.jpg)">
+                            <div class="inner">
+                                <p>Smoked Salmon</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://www.grillseeker.com/wp-content/uploads/2021/05/Smoked-Hamburgers-Burger-Feature1.jpg)">
+                            <div class="inner">
+                                <p>Smoked Burger</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                    <div class="front" style="background-image: url(https://www.chiselandfork.com/wp-content/uploads/2022/06/smoked-hot-dogs-1.jpg)">
+                            <div class="inner">
+                                <p>Smoked hot dogs</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <ul>
-            <li>Amman/ Jordan</li>
-            <li>07********</li>
-            <li>Facebook -> Meatster</li>
-        </ul>
-        <hr>
+        <div class="main-footer">
+            <ul class="footer-list">
+                <li >Amman/ Jordan</li>
+                <li >07********</li>
+            </ul>
+        </div>
     </footer>
 
     
 </body>
+
 </html>
